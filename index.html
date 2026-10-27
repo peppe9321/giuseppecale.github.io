@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giuseppe Calè | Premium Tech Solutions</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/0fd17594dc.js" crossorigin="anonymous"></script>
+
+  <!-- CSS STYLESHEET -->
+  <link rel="stylesheet" href="css/premium.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-gradient" href="index.html">Giuseppe Calè</a>
+      <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Chi Siamo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Servizi</a></li>
+          <li class="nav-item"><a class="nav-link" href="tutti-lavori.html">Lavori</a></li>
+          <li class="nav-item"><a class="nav-link" href="pages/prenotazioni.html">Prenota</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contattaci</a></li>
+          <li class="nav-item ms-lg-3 me-lg-2"><a class="nav-link btn-preventivi-highlight d-inline-block mt-2 mt-lg-0" href="pages/preventivi.php"><i class="fa-solid fa-calculator me-1"></i> Calcola Preventivo</a></li>
+          <li class="nav-item"><a class="btn btn-premium btn-sm mt-2 mt-lg-0" href="auth/login.php">Area
+              Privata</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="container position-relative z-index-2">
+      <div class="row align-items-center justify-content-center text-center">
+        <div class="col-lg-10 mb-5 mb-lg-0 mt-5 pt-4">
+          <h1 class="display-3 mb-4" style="text-shadow: 0 0 20px rgba(0,0,0,0.8);">
+            Oltre la tecnologia.<br>
+            <span class="text-gradient">Il Tuo Futuro.</span>
+          </h1>
+          <p class="lead mb-5 mx-auto"
+            style="font-size: 1.35rem; max-width: 800px; color: #E2E0EC !important; text-shadow: 0 0 10px rgba(0,0,0,0.8);">
+            Soluzioni informatiche d'avanguardia, ecosistemi Smart Home e infrastrutture sicure. Progettiamo il digitale
+            senza compromessi.
+          </p>
+          <div class="d-flex gap-3 flex-wrap justify-content-center">
+            <a href="#services" class="btn btn-premium" style="box-shadow: 0 10px 20px rgba(0,0,0,0.5);">Esplora i
+              Servizi <i class="fa-solid fa-arrow-right ms-2"></i></a>
+            <a href="pages/prenotazioni.html" class="btn btn-outline-premium"
+              style="background: rgba(11,9,20,0.6); backdrop-filter: blur(10px);"><i
+                class="fa-regular fa-calendar-check me-2"></i>Prenota Consulenza</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chi Siamo -->
+  <section id="about" class="py-5 my-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="display-5 mb-4">Chi Siamo</h2>
+          <p class="fs-4 text-secondary leading-relaxed">
+            Giuseppe Calè è una realtà specializzata in ingegneria informatica e domotica di alto livello. Offriamo
+            soluzioni **su misura**, pensate per aziende e privati che non si accontentano. Dallo sviluppo software alla
+            cybersecurity, eleviamo i tuoi processi.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servizi -->
+  <section id="services" class="py-5 my-5 position-relative">
+    <div class="container">
+      <h2 class="display-5 text-center mb-5 pb-3"><span class="text-gradient">Ecosistema Servizi</span></h2>
+      <div class="row g-4 justify-content-center">
+        <!-- Servizio Highlight: Video Corsi (Span Tutta Larghezza) -->
+        <div class="col-lg-12">
+          <a href="pages/servizio_videocorsi.html" class="text-decoration-none">
+            <div class="bento-card-image" style="min-height: 400px;">
+              <div class="bento-img-bg" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop');"></div>
+              <div class="bento-overlay" style="background: linear-gradient(to top, rgba(11, 9, 20, 0.95) 0%, rgba(11, 9, 20, 0.6) 50%, rgba(11, 9, 20, 0.2) 100%);"></div>
+              <div class="bento-content">
+                <div class="row align-items-center">
+                  <div class="col-md-9">
+                    <div class="mb-3">
+                      <span class="tech-tag" style="border-color: rgba(255, 193, 7, 0.4);"><i class="fa-solid fa-graduation-cap text-warning me-1"></i> Formazione</span>
+                    </div>
+                    <h3 class="fs-2 text-white fw-bolder mb-2">Portale Formazione<span
+                        class="badge bg-warning text-dark ms-2 fw-bold"
+                        style="font-size: 0.9rem; vertical-align: middle;">NOVITÀ</span></h3>
+                    <p class="text-secondary opacity-75 fw-light fs-5 lh-base mb-0">Impara dai migliori. Accedi a percorsi
+                      formativi esclusivi su sviluppo software, ingegneria e domotica. Materiale premium accessibile
+                      direttamente dalla tua Area Privata.</p>
+                  </div>
+                  <div class="col-md-3 text-md-end mt-4 mt-md-0 pe-md-4">
+                    <span class="btn btn-warning text-dark fw-bold px-4 md-fs-5"><i class="fa-solid fa-play me-2"></i>
+                      Esplora</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Servizio 1: Grande (Span 2 col) -->
+        <div class="col-lg-8">
+          <a href="pages/servizio_sviluppo.html" class="text-decoration-none">
+            <div class="bento-card-image" style="min-height: 450px;">
+              <div class="bento-img-bg" style="background-image: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070&auto=format&fit=crop');"></div>
+              <div class="bento-overlay"></div>
+              <div class="bento-content">
+                <div class="mb-3">
+                  <span class="tech-tag"><i class="fa-solid fa-code text-primary me-1"></i> Software</span>
+                </div>
+                <h3 class="fs-2 text-white fw-bold mb-2">Sviluppo Architetture Software</h3>
+                <p class="text-secondary fs-5 mb-0" style="max-width: 80%;">Non creiamo solo siti, ma veri e propri ecosistemi
+                  digitali. Piattaforme web scalabili, app cross-platform e gestionali su misura, progettati per fondersi
+                  con le tue logiche di business e accelerare i processi aziendali.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Servizio 2: Piccolo (Span 1 col) -->
+        <div class="col-lg-4">
+          <a href="pages/servizio_domotica.html" class="text-decoration-none">
+            <div class="bento-card-image" style="min-height: 450px;">
+              <div class="bento-img-bg" style="background-image: url('https://images.unsplash.com/photo-1558002038-1055907df827?q=80&w=2070&auto=format&fit=crop');"></div>
+              <div class="bento-overlay"></div>
+              <div class="bento-content">
+                <div class="mb-3">
+                  <span class="tech-tag"><i class="fa-solid fa-microchip text-primary me-1"></i> Domotica</span>
+                </div>
+                <h3 class="fs-4 text-white fw-bold mb-2">Smart Home & <br>Domotica HQ</h3>
+                <p class="text-secondary mb-0">Automazioni invisibili e IA per il controllo totale degli
+                  spazi.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Servizio 3: Piccolo (Span 1 col) -->
+        <div class="col-lg-4">
+          <a href="pages/servizio_infrastrutture.html" class="text-decoration-none">
+            <div class="bento-card-image" style="min-height: 400px;">
+              <div class="bento-img-bg" style="background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop');"></div>
+              <div class="bento-overlay"></div>
+              <div class="bento-content">
+                <div class="mb-3">
+                  <span class="tech-tag"><i class="fa-solid fa-server text-secondary me-1"></i> Cloud</span>
+                </div>
+                <h3 class="fs-4 text-white fw-bold mb-2">Infrastrutture IT Cloud</h3>
+                <p class="text-secondary mb-0">Server dedicati, orchestration flessibile e reti
+                  ultra-veloci per latenza zero.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Servizio 4: Piccolo (Span 1 col) -->
+        <div class="col-lg-4">
+          <a href="pages/servizio_cybersecurity.html" class="text-decoration-none">
+            <div class="bento-card-image" style="min-height: 400px;">
+              <div class="bento-img-bg" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop');"></div>
+              <div class="bento-overlay"></div>
+              <div class="bento-content">
+                <div class="mb-3">
+                  <span class="tech-tag"><i class="fa-solid fa-shield-virus text-danger me-1"></i> Security</span>
+                </div>
+                <h3 class="fs-4 text-white fw-bold mb-2">Difesa Cybersecurity</h3>
+                <p class="text-secondary mb-0">Scudi proattivi, auditing deep-level e backup cifrati
+                  distribuiti.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Servizio 5: Piccolo (Span 1 col) -->
+        <div class="col-lg-4">
+          <a href="pages/servizio_supporto.html" class="text-decoration-none">
+            <div class="bento-card-image" style="min-height: 400px;">
+              <div class="bento-img-bg" style="background-image: url('https://images.unsplash.com/photo-1534536281715-e28d76689b4d?q=80&w=2070&auto=format&fit=crop');"></div>
+              <div class="bento-overlay"></div>
+              <div class="bento-content">
+                <div class="mb-3">
+                  <span class="tech-tag"><i class="fa-solid fa-headset text-white me-1"></i> Support</span>
+                </div>
+                <h3 class="fs-4 text-white fw-bold mb-2">Supporto Premium</h3>
+                <p class="text-secondary mb-0">Assistenza SLA garantita e un portale privato esclusivo per
+                  il tracking in tempo reale.</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contattaci -->
+  <section id="contact" class="py-5 my-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="premium-card p-5">
+            <h2 class="display-6 text-center mb-5">Modulo di contatto</h2>
+            <form action="contact_form.php" method="POST">
+              <div class="row g-3">
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">Nome Completo</label>
+                  <input type="text" class="form-control" name="name" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" class="form-control" name="email" required>
+                </div>
+              </div>
+              <div class="mb-4">
+                <label class="form-label">La tua Richiesta</label>
+                <textarea class="form-control" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-premium w-100 py-3 fs-5">Invia Richiesta</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 mt-5">
+    <div class="container text-center">
+      <div class="d-flex justify-content-center gap-4 mb-4">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/giuseppecale.it/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <p class="mb-0 text-secondary">&copy; 2026 Giuseppe Calè. All rights reserved. | <a href="auth/login.php"
+          class="text-secondary text-decoration-none hover-white">Client Portal</a></p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
